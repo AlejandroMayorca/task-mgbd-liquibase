@@ -1,0 +1,2 @@
+CREATE SCHEMA IF NOT EXISTS liquibase;
+GRANT USAGE ON SCHEMA liquibase TO postgres;

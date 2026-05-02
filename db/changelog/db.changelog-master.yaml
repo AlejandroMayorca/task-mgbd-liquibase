@@ -1,0 +1,99 @@
+databaseChangeLog:
+  - changeSet:
+      id: ddl-001-create-persona
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../ddl/001-create-persona.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: ddl-002-create-rol
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../ddl/002-create-rol.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: ddl-003-create-usuario
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../ddl/003-create-usuario.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: ddl-004-create-producto
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../ddl/004-create-producto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: ddl-005-create-factura
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../ddl/005-create-factura.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: ddl-006-create-detalle-factura
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../ddl/006-create-detalle-factura.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: dml-001-insert-data
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../dml/001-insert-data.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: dml-002-update-data
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../dml/002-update-data.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
+
+  - changeSet:
+      id: dml-003-delete-data
+      author: alejandro
+      changes:
+        - sqlFile:
+            path: ../dml/003-delete-data.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            endDelimiter: ";"
